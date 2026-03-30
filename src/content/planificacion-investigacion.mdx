@@ -1,0 +1,105 @@
+---
+title: 'Planificación de la investigación'
+description: 'Establece objetivos claros y selecciona los métodos adecuados para obtener insights accionables.'
+module: '07'
+category: 'UX Research'
+readTime: '9 min'
+---
+import { Callout, Pullquote, BenefitGrid, CriteriaList, CompareRow, CaseStudy, SummaryCard } from '../components/mdx'
+
+## Planificar antes de investigar
+
+La investigación generativa permite descubrir necesidades, motivaciones y oportunidades antes de diseñar. Pero para que sea efectiva, debe planificarse con claridad desde el inicio. Sin estructura, los datos que obtenés son difíciles de interpretar y aún más difíciles de convertir en decisiones.
+
+<Pullquote>
+  "Con preguntas precisas, métodos bien elegidos y una estrategia clara, podés generar insights sólidos que alineen tu producto con las necesidades reales de las personas."
+</Pullquote>
+
+## Los 6 pasos del proceso
+
+### 1. Definí tu pregunta de investigación
+
+La pregunta de investigación es el ancla de todo el proceso. Debe ser específica, clara y accionable. Evitá preguntas demasiado amplias o imposibles de investigar con tus recursos.
+
+<CompareRow
+  company="Pregunta de investigación"
+  bad='"¿Qué piensan los usuarios sobre los autos eléctricos?" — Demasiado amplia, no guía decisiones concretas.'
+  good='"¿Qué funcionalidades valoran más los usuarios urbanos en autos eléctricos?" — Específica, accionable y enfocada en lo que el equipo necesita saber.'
+/>
+
+### 2. Identificá tu audiencia objetivo
+
+No todos los usuarios son relevantes para cada estudio. Antes de reclutar, definí con precisión quiénes deben participar y también quiénes no.
+
+<CriteriaList items={[
+  { name: 'Criterios demográficos', desc: 'Edad, género, nivel educativo, ocupación.' },
+  { name: 'Criterios geográficos', desc: 'Ciudad, región, tipo de entorno (urbano, rural, suburbano).' },
+  { name: 'Criterios conductuales', desc: 'Comportamientos específicos relacionados con el producto o problema a investigar.' },
+  { name: 'Criterios psicográficos', desc: 'Valores, actitudes, estilo de vida y motivaciones.' },
+]} />
+
+<Callout>
+  **Tip:** definí también quiénes no deben participar. Los criterios de exclusión son tan importantes como los de inclusión para mantener la calidad del reclutamiento.
+</Callout>
+
+### 3. Elegí tus métodos de investigación
+
+La elección del método depende de qué querés descubrir. No todos sirven para lo mismo.
+
+<CriteriaList items={[
+  { name: 'Field studies', desc: 'Para observar comportamientos reales en contexto, sin entornos controlados.' },
+  { name: 'User interviews', desc: 'Para entender motivaciones, emociones y percepciones en profundidad.' },
+  { name: 'Focus groups', desc: 'Para explorar dinámicas grupales y generar ideas de forma colectiva.' },
+  { name: 'Diary studies', desc: 'Para analizar rutinas y comportamientos a lo largo del tiempo.' },
+  { name: 'Card sorting', desc: 'Para descubrir cómo los usuarios organizan y clasifican la información.' },
+  { name: 'Literature review', desc: 'Para fundamentar tu conocimiento previo y evitar esfuerzos redundantes.' },
+]} />
+
+### 4. Diseñá un research plan
+
+El research plan es el documento que alinea al equipo. Sin él, cada persona puede tener expectativas distintas sobre qué se va a investigar y para qué.
+
+<CaseStudy
+  statement="¿Qué debe incluir un research plan?"
+  items={[
+    { label: 'Estrategia y objetivos', text: 'Qué se busca descubrir y por qué es relevante para el producto o negocio.' },
+    { label: 'Público objetivo y muestra', text: 'Quiénes participarán y cuántos por método.' },
+    { label: 'Metodologías y justificación', text: 'Qué métodos se usarán y por qué son los más adecuados para este estudio.' },
+    { label: 'Cronograma y responsables', text: 'Fechas, entregables y quién es responsable de cada etapa.' },
+    { label: 'Materiales y presupuesto', text: 'Guías, scripts, escenarios e incentivos estimados.' },
+  ]}
+/>
+
+<Callout icon="📌">
+  **Compartilo con tu equipo.** El research plan no es un documento interno del investigador — es una herramienta de alineación. Cuanta más visibilidad tenga, mejor.
+</Callout>
+
+### 5. Reclutá participantes
+
+El tamaño de la muestra varía según el método. Estas son las referencias generales:
+
+<CriteriaList items={[
+  { name: 'Entrevistas', desc: '3 a 10 participantes. Con menos de 5 es difícil detectar patrones.' },
+  { name: 'Focus groups', desc: '5 a 10 personas por grupo. Menos no genera dinámica; más se vuelve inmanejable.' },
+  { name: 'Diary studies', desc: '10 a 15 participantes para capturar variedad de rutinas y comportamientos.' },
+  { name: 'Card sorting', desc: 'Mínimo 15 participantes para que los patrones de agrupación sean estadísticamente significativos.' },
+]} />
+
+Para reclutar podés usar plataformas especializadas, agencias de reclutamiento, tu base de clientes existente o redes sociales. Siempre ofrecé incentivos adecuados al tiempo y perfil requerido.
+
+### 6. Diseñá un screener survey
+
+El screener es el filtro que garantiza que los participantes sean los adecuados antes de invertir tiempo en la sesión.
+
+<CriteriaList items={[
+  { name: 'Priorizá preguntas que descarten rápido', desc: 'Las primeras preguntas deben eliminar a los perfiles no aptos lo antes posible.' },
+  { name: 'No reveles el propósito del estudio', desc: 'Tampoco el nombre de la empresa o producto. Esto evita que los participantes adapten sus respuestas a lo que creen que querés escuchar.' },
+  { name: 'Evitá preguntas dirigidas', desc: 'Las preguntas que sugieren una respuesta correcta contaminan el reclutamiento desde el inicio.' },
+]} />
+
+<SummaryCard items={[
+  { label: 'El primer paso siempre', text: 'Una pregunta de investigación específica y accionable. Sin ella, todo lo demás pierde foco.' },
+  { label: 'El documento clave', text: 'El research plan. Alinea al equipo, define responsables y establece expectativas claras.' },
+  { label: 'Error más común', text: 'Reclutar sin screener. Participantes incorrectos arruinan los datos sin importar qué tan buenas sean las preguntas.' },
+  { label: 'Para recordar', text: 'Cada método tiene un tamaño de muestra óptimo. Más participantes no siempre significa mejores insights.' },
+]} />

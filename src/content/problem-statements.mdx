@@ -1,0 +1,107 @@
+---
+title: 'Problem Statements en Diseño'
+description: 'Qué son, por qué importan y cómo escribir un enunciado que realmente guíe tu proceso.'
+module: '01'
+category: 'UX Research'
+readTime: '8 min'
+---
+import { Callout, Pullquote, BenefitGrid, CriteriaList, CompareRow, CaseStudy, SummaryCard } from '../components/mdx'
+
+## ¿Qué es un problem statement?
+
+Un problem statement —o enunciado del problema— es una declaración concisa que define con precisión el problema que un proyecto de diseño o investigación busca resolver. No describe la solución, sino el obstáculo que se interpone entre el usuario y su objetivo.
+
+<Pullquote>
+  "Los problem statements son como el GPS de nuestro trabajo de diseño: nos guían de principio a fin."
+</Pullquote>
+
+Actúa como el punto de partida que da claridad y dirección a cualquier proyecto. Sin él, se corre el riesgo de perderse entre múltiples posibilidades, perseguir soluciones equivocadas o trabajar en problemas que nadie tiene realmente.
+
+<Callout>
+  **Para recordar:** un problem statement describe el problema, no la solución. Si tu enunciado menciona "deberíamos hacer X", estás describiendo una solución, no un problema.
+</Callout>
+
+## Por qué es esencial en diseño
+
+En diseño, el problem statement permite enfocar las soluciones en las verdaderas necesidades del usuario y los objetivos del negocio, garantizando relevancia y utilidad. En investigación, su valor radica en identificar vacíos de conocimiento y guiar los esfuerzos hacia respuestas concretas.
+
+Al funcionar como un puente entre ambas disciplinas, alinea a todos los involucrados en torno a una meta común, facilitando la toma de decisiones y asegurando que el proceso se mantenga enfocado, eficiente y con propósito.
+
+## Los 4 beneficios clave
+
+Un problem statement bien definido ofrece beneficios prácticos que impactan directamente en el éxito del proceso de diseño.
+
+<BenefitGrid items={[
+  { label: 'Enfoque', text: 'Orienta los esfuerzos hacia los problemas más relevantes, evitando la dispersión y el uso ineficiente de recursos.' },
+  { label: 'Toma de decisiones', text: 'Funciona como punto de referencia para evaluar soluciones, reduce la ambigüedad y acelera el proceso.' },
+  { label: 'Innovación', text: 'Al establecer límites claros, fomenta la creatividad dentro de un marco que favorece ideas nuevas y eficaces.' },
+  { label: 'Colaboración', text: 'Genera comprensión compartida, alinea al equipo y a los stakeholders bajo una misma visión.' },
+]} />
+
+## 7 criterios de un buen enunciado
+
+No todo enunciado que describe un problema es un buen problem statement. Para ser realmente útil, debe cumplir con los siguientes criterios:
+
+<CriteriaList items={[
+  { name: 'Claro y específico', desc: 'Define el problema sin ambigüedades. Cualquier persona del equipo debería entender exactamente de qué se trata.' },
+  { name: 'Delimita el alcance', desc: 'Evita ser demasiado amplio o general. Un buen problem statement acota el territorio donde se va a trabajar.' },
+  { name: 'Orienta a la acción', desc: 'Sugiere líneas claras de trabajo. Leerlo debería dar pistas sobre cómo empezar a investigar o diseñar.' },
+  { name: 'Incluye objetivo', desc: 'Indica qué se quiere lograr. Sin un objetivo claro, el problema no tiene dirección.' },
+  { name: 'Es medible', desc: 'Permite evaluar si el problema fue realmente resuelto. Idealmente incluye un número o indicador concreto.' },
+  { name: 'Relevante', desc: 'Responde a una necesidad real del usuario o del negocio. Si nadie lo siente como un problema, no vale la pena resolverlo.' },
+  { name: 'Basado en evidencia', desc: 'Se apoya en datos o hallazgos previos. Un problem statement sin respaldo empírico es solo una suposición.' },
+]} />
+
+## Ejemplos reales: vago vs. efectivo
+
+La diferencia entre un enunciado vago y uno efectivo no es de intención, sino de precisión.
+
+<CompareRow
+  company="Apple · App de cámara"
+  bad='"Hacer mejores productos."'
+  good='"Mejorar la experiencia de la app de cámara del iPhone reduciendo el shutter lag y mejorando el rendimiento en baja luz."'
+/>
+
+<CompareRow
+  company="Netflix · Engagement"
+  bad='"Hacer más popular el servicio."'
+  good='"Aumentar el engagement de usuarios en un 15% mediante recomendaciones personalizadas y mejoras en UI/UX."'
+/>
+
+<CompareRow
+  company="Uber · Tiempos de espera"
+  bad='"Mejorar el servicio."'
+  good='"Reducir el tiempo de espera promedio en un 20% mediante optimización del algoritmo de asignación y reclutamiento de conductores."'
+/>
+
+<CompareRow
+  company="Slack · Productividad"
+  bad='"Mejorar la app de comunicación."'
+  good='"Aumentar la productividad del usuario optimizando la búsqueda de mensajes e integrando gestión de tareas."'
+/>
+
+<Callout icon="📌">
+  **Patrón en común:** todos los enunciados efectivos combinan tres elementos — **qué mejorar**, **cuánto** y **cómo**. Si falta uno, el enunciado pierde fuerza.
+</Callout>
+
+## Caso de estudio analizado
+
+<CaseStudy
+  statement="Reducir en un 25% los abandonos del proceso de registro en nuestra app móvil mejorando la usabilidad del formulario y optimizando los tiempos de carga."
+  items={[
+    { label: 'Claro y específico', text: 'Se identifica claramente el problema — abandono en el proceso de registro.' },
+    { label: 'Delimita el alcance', text: 'Se enfoca en una parte puntual del producto — el proceso de registro — sin generalizar.' },
+    { label: 'Orienta a la acción', text: 'Menciona dos caminos concretos — mejorar la usabilidad del formulario y optimizar los tiempos de carga.' },
+    { label: 'Incluye objetivo', text: 'El objetivo queda claro — reducir los abandonos.' },
+    { label: 'Es medible', text: 'Se fija una meta cuantificable — un 25% de reducción.' },
+    { label: 'Relevante', text: 'Impacta directamente en la conversión de nuevos usuarios.' },
+    { label: 'Basado en evidencia', text: 'Implica que el abandono fue detectado como un problema real, no como una suposición.' },
+  ]}
+/>
+
+<SummaryCard items={[
+  { label: 'El patrón básico', text: '[Verbo] + [métrica] + [problema] + [contexto] + [acciones concretas]' },
+  { label: 'El error más común', text: 'Describir la solución en lugar del problema. Si dice "deberíamos...", empezá de nuevo.' },
+  { label: 'Sin esto, no es válido', text: 'Una métrica concreta. Sin número, no hay forma de saber si el problema fue resuelto.' },
+  { label: 'La pregunta clave', text: '¿Cualquier persona del equipo entendería exactamente qué hay que resolver y cómo medirlo?' },
+]} />

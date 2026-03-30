@@ -1,0 +1,83 @@
+---
+title: 'Card Sorting'
+description: 'Descubre cómo los usuarios agrupan y entienden la información para mejorar la arquitectura.'
+module: '04'
+category: 'UX Research'
+readTime: '6 min'
+---
+import { Callout, Pullquote, BenefitGrid, CriteriaList, CompareRow, CaseStudy, SummaryCard } from '../components/mdx'
+
+## ¿Qué es el card sorting?
+
+Card sorting es una técnica de investigación generativa que permite descubrir cómo las personas agrupan y entienden la información. Se basa en dar a los usuarios una serie de tarjetas con temas o contenidos y pedirles que los organicen en grupos lógicos según su criterio. Luego se les solicita que nombren esos grupos.
+
+<BenefitGrid items={[
+  { label: 'Refleja modelos mentales', text: 'Revela cómo las personas piensan y estructuran la información de forma natural.' },
+  { label: 'Guía la arquitectura', text: 'Ayuda a crear sitios y apps más intuitivos y alineados con las expectativas del usuario.' },
+  { label: 'Fácil y económico', text: 'Puede realizarse con herramientas digitales o tarjetas físicas. No requiere gran infraestructura.' },
+  { label: 'Rápido y centrado', text: 'Genera datos valiosos en poco tiempo, directamente desde las percepciones del usuario.' },
+]} />
+
+<Callout icon="⚠️">
+  **Limitaciones:** no explora cómo los usuarios interactúan ni qué tareas buscan completar. No considera elementos visuales como diseño o imágenes. Los resultados pueden variar mucho entre participantes, lo que dificulta el análisis.
+</Callout>
+
+## Tipos de card sorting
+
+<CriteriaList items={[
+  { name: 'Open card sorting', desc: 'Los usuarios agrupan tarjetas libremente y nombran cada grupo. Ideal en etapas iniciales para descubrir modelos mentales naturales. Los resultados son más variados y difíciles de analizar.' },
+  { name: 'Closed card sorting', desc: 'Las tarjetas se agrupan en categorías predefinidas. Útil para validar estructuras existentes. Fácil de analizar, pero no permite explorar nuevas categorías.' },
+  { name: 'Hybrid card sorting', desc: 'Hay categorías predefinidas pero los participantes pueden crear nuevas. Muy útil en rediseños: permite evaluar lo actual y descubrir nuevas posibilidades.' },
+]} />
+
+<CompareRow
+  company="Formato de ejecución"
+  bad="No moderado: los usuarios realizan la actividad de forma autónoma. Ideal para estudios a gran escala o con tiempos limitados. Foco en cantidad."
+  good="Moderado: un facilitador guía la sesión, hace preguntas y profundiza en las decisiones. Ideal para comprender los razonamientos detrás de cada elección."
+/>
+
+<Callout>
+  **Digital vs. físico:** herramientas como Maze permiten escalar el estudio y automatizar el análisis, ideal para audiencias remotas. Las tarjetas físicas son más cercanas e interactivas, pero requieren más logística y análisis manual.
+</Callout>
+
+## Cómo conducir una sesión paso a paso
+
+<CriteriaList items={[
+  { name: '1. Elegí un tema alineado a tu objetivo', desc: 'Definí claramente qué contenido o funcionalidades vas a evaluar. Hacé una auditoría del producto actual para identificar qué tarjetas incluir.' },
+  { name: '2. Prepará las tarjetas', desc: 'Creá tarjetas con palabras o frases que representen secciones o funciones del producto (ej: "Perfil", "Agregar método de pago", "Restablecer contraseña"). Los términos deben ser claros y comprensibles.' },
+  { name: '3. Escribí instrucciones claras', desc: 'Anticipate a dudas: ¿pueden poner una tarjeta en más de un grupo? ¿Pueden crear nuevos grupos? ¿Qué pasa si no entienden una tarjeta? En sesiones online, incluí estas respuestas dentro de la plataforma.' },
+  { name: '4. Ejecutá la sesión', desc: 'Dales contexto pero no los guíes en exceso. Dejá que agrupen primero y luego nombren las categorías. No interrumpas mientras trabajan; observá y tomá notas.' },
+  { name: '5. Hacé preguntas de seguimiento', desc: '¿Qué fue fácil o difícil de clasificar? ¿Hubo tarjetas que podían ir en más de un grupo? ¿Qué pensás de las que no clasificaste? En estudios no moderados, incluí estas preguntas como encuesta post-sesión.' },
+]} />
+
+## Cómo analizar los resultados
+
+Una vez terminadas las sesiones, el análisis puede sentirse abrumador por el volumen de datos. El punto de partida es siempre una vista holística: buscá patrones generales antes de entrar en el detalle.
+
+<Pullquote>
+  "Empezá por una vista amplia para identificar patrones recurrentes tanto en cómo se agruparon las tarjetas como en cómo se nombraron las categorías."
+</Pullquote>
+
+### Patrones clave a identificar
+
+<CaseStudy
+  statement="¿Qué señales buscar al revisar los resultados de un card sorting?"
+  items={[
+    { label: 'Categorías con nombres similares', text: 'Si "Cuenta" y "Perfil" aparecen como categorías separadas pero contienen las mismas tarjetas, considerá fusionarlas en una sola para evitar duplicados.' },
+    { label: 'Tarjetas consistentemente en múltiples categorías', text: 'Puede significar que la tarjeta es demasiado amplia, necesita dividirse en varias o que los usuarios no entendieron su significado.' },
+    { label: 'Categorías vacías', text: 'Si ningún participante colocó tarjetas en una categoría predefinida, probablemente esa categoría sea irrelevante y deba eliminarse.' },
+    { label: 'Tarjetas siempre juntas pero en diferentes grupos', text: 'Los usuarios priorizan que esas tarjetas estén juntas más allá del nombre del grupo. Eso es una señal de relación fuerte entre esos contenidos.' },
+    { label: 'Tarjetas consistentemente sin clasificar', text: 'Si los participantes no supieron dónde poner una tarjeta, su etiqueta necesita ser reconsiderada o reescrita.' },
+  ]}
+/>
+
+<Callout icon="📌">
+  **Al estandarizar etiquetas:** usá terminología que ya usen los participantes, que sea parte del branding del producto o que comunique ambos conceptos de forma clara. El lenguaje del usuario siempre tiene prioridad sobre el lenguaje interno del equipo.
+</Callout>
+
+<SummaryCard items={[
+  { label: 'Cuándo usarlo', text: 'En etapas tempranas de diseño, antes de definir la arquitectura de información de un sitio o app.' },
+  { label: 'Tipo recomendado para explorar', text: 'Open card sorting: sin categorías predefinidas, revela modelos mentales naturales.' },
+  { label: 'Tipo recomendado para validar', text: 'Closed o hybrid: con categorías existentes, confirma si la estructura actual tiene sentido.' },
+  { label: 'Señal más importante', text: 'Las tarjetas que nadie sabe dónde poner. Esas son las que más necesitan ser rediseñadas.' },
+]} />

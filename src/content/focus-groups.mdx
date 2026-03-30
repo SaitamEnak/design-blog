@@ -1,0 +1,81 @@
+---
+title: 'Focus Groups'
+description: 'Explora percepciones grupales y modelos mentales a través de la moderación colectiva.'
+module: '05'
+category: 'UX Research'
+readTime: '8 min'
+---
+import { Callout, Pullquote, BenefitGrid, CriteriaList, CompareRow, CaseStudy, SummaryCard } from '../components/mdx'
+
+## ¿Qué son los focus groups?
+
+Los focus groups son una técnica cualitativa donde un moderador guía una discusión grupal sobre un producto, servicio o concepto. Participan entre 6 y 9 personas representativas de una audiencia específica, y la conversación suele durar entre una y dos horas.
+
+<CompareRow
+  company="Ventajas y limitaciones"
+  bad="Lo que dicen no siempre refleja lo que hacen. La presión social puede diluir opiniones individuales, las personalidades extrovertidas pueden dominar y la logística tiene un costo elevado."
+  good="Las interacciones generan reacciones espontáneas, facilitan compartir temas sensibles y el contraste de opiniones revela el peso emocional de ciertos temas."
+/>
+
+<Callout>
+  **Mejor práctica:** usá focus groups en combinación con otros métodos —entrevistas, observación, encuestas— para obtener una visión más completa. No deben ser la única fuente de insights si el objetivo es comprender motivaciones individuales o comportamientos reales.
+</Callout>
+
+## Por qué seguir usándolos a pesar de sus limitaciones
+
+Bien ejecutados, los focus groups aportan algo que los métodos individuales no pueden: el contexto colectivo.
+
+<BenefitGrid items={[
+  { label: 'Modelos mentales', text: 'Revelan cómo las personas conceptualizan un problema y qué palabras usan, mejorando cómo formulamos preguntas e interfaces.' },
+  { label: 'Memoria compartida', text: 'Escuchar a otros activa recuerdos que los participantes no hubieran mencionado solos, generando insights más ricos.' },
+  { label: 'Eficiencia de tiempo', text: 'En lugar de entrevistas individuales de una hora, se reúnen varias perspectivas en una sola sesión de dos horas.' },
+  { label: 'Flexibilidad temática', text: 'A diferencia de encuestas, permiten al moderador profundizar en temas que surjan espontáneamente.' },
+]} />
+
+<Pullquote>
+  "Un buen análisis convierte la conversación en dirección."
+</Pullquote>
+
+## Cómo moderar un focus group efectivo
+
+La calidad de un focus group depende en gran parte de la moderación. Crear un entorno cómodo y guiar la conversación con intención es clave para obtener insights útiles.
+
+<CriteriaList items={[
+  { name: '1. Selección de participantes', desc: 'Reclutá personas representativas de tu audiencia, con objetivos similares pero variedad de contextos. Esto reduce sesgos y enriquece la discusión. Considerá posibles exclusiones por ubicación, accesibilidad o habilidades tecnológicas.' },
+  { name: '2. Crear un ambiente seguro', desc: 'Usá icebreakers o actividades suaves para que se sientan cómodos. Ofrecé formas de participación no verbales —card sorting, asociaciones de palabras— para quienes sean más reservados.' },
+  { name: '3. Hacer las preguntas correctas', desc: 'Evitá preguntas hipotéticas y enfocate en experiencias reales. Usá preguntas abiertas, no de sí/no. No sugieras respuestas correctas ni hagás preguntas dirigidas.' },
+  { name: '4. Incluir actividades dinámicas', desc: 'Sumá ejercicios como listas, dramatizaciones o juegos de asociación para incentivar la participación y hacer la sesión más rica.' },
+  { name: '5. Documentar bien', desc: 'Tené una persona tomando notas junto al moderador que registre citas, reacciones, lenguaje corporal y posibles preguntas de seguimiento. Un esquema del lugar con la ubicación de cada participante ayuda en el análisis.' },
+]} />
+
+## Cómo analizar y reportar los hallazgos
+
+El análisis puede ser complejo por la gran cantidad de información no estructurada: citas, gestos, dinámicas de grupo y materiales visuales. Un proceso claro es indispensable.
+
+<CriteriaList items={[
+  { name: '1. Revisá videos y transcripciones', desc: 'Observá gestos, tono emocional y quién dijo qué. Completá con las notas del moderador y los materiales generados durante la sesión.' },
+  { name: '2. Resumí cada sesión individualmente', desc: 'Inmediatamente después de cada focus group, registrá los temas clave, respuestas destacadas y preguntas emergentes para no perder detalles.' },
+  { name: '3. Buscá patrones entre sesiones', desc: 'Compará los reportes para identificar temas comunes y diferencias. Clasificá en categorías: problemas frecuentes, motivaciones, lenguaje usado e ideas y oportunidades.' },
+]} />
+
+<CaseStudy
+  statement="¿Qué preguntas hacerse durante el análisis?"
+  items={[
+    { label: 'Lenguaje', text: '¿Qué palabras usaron para describir su experiencia?' },
+    { label: 'Emociones', text: '¿Qué emociones se percibieron y con qué intensidad?' },
+    { label: 'Frecuencia', text: '¿Qué temas surgieron con mayor frecuencia?' },
+    { label: 'Participación', text: '¿Quién habló más y en qué contextos?' },
+    { label: 'Puntos de quiebre', text: '¿Qué disparó las emociones más fuertes?' },
+  ]}
+/>
+
+<Callout icon="📌">
+  **Al presentar los hallazgos:** enfocate en los insights alineados con los objetivos, incluí citas y fragmentos de video para dar vida a los datos, y añadí contexto para que los stakeholders que no asistieron comprendan la relevancia de cada hallazgo.
+</Callout>
+
+<SummaryCard items={[
+  { label: 'Tamaño ideal del grupo', text: 'Entre 6 y 9 personas representativas. Menos no genera dinámica; más se vuelve inmanejable.' },
+  { label: 'Su mayor fortaleza', text: 'El contexto colectivo: dinámicas de validación, desacuerdo y entusiasmo que revelan percepciones compartidas.' },
+  { label: 'El rol del moderador', text: 'Crear un ambiente seguro, hacer preguntas abiertas y evitar que voces dominantes anulen al resto.' },
+  { label: 'Cuándo usarlos', text: 'En etapas tempranas del producto, combinados con otros métodos. Nunca como única fuente de insights.' },
+]} />

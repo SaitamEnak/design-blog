@@ -1,0 +1,87 @@
+---
+title: 'Entrevistas con usuarios'
+description: 'Conecta directamente con las personas para comprender sus metas, emociones y comportamientos.'
+module: '03'
+category: 'UX Research'
+readTime: '7 min'
+---
+import { Callout, Pullquote, BenefitGrid, CriteriaList, CompareRow, CaseStudy, SummaryCard } from '../components/mdx'
+
+## ¿Qué son las entrevistas con usuarios?
+
+Las entrevistas con usuarios permiten conectar directamente con las personas para comprender sus metas, emociones, expectativas y comportamientos frente a un problema o situación específica. Son una técnica adaptable, ideal para descubrir oportunidades e impulsar la innovación en etapas tempranas del diseño.
+
+<CompareRow
+  company="Tipos de entrevista"
+  bad="Estructuradas: siguen un guion fijo. Útiles para recopilar datos consistentes, pero menos exploratorias y con poco espacio para sorpresas."
+  good="Semiestructuradas: se apoyan en temas predefinidos pero permiten adaptar preguntas según las respuestas. Fomentan conversaciones más ricas y reveladoras."
+/>
+
+<BenefitGrid items={[
+  { label: 'Señales en tiempo real', text: 'Capturan comunicación verbal y no verbal que otros métodos no pueden registrar.' },
+  { label: 'Empatía profunda', text: 'Fomentan el entendimiento genuino del usuario y sus motivaciones.' },
+  { label: 'Conversaciones inesperadas', text: 'Permiten seguir líneas de diálogo imprevistas que revelan insights valiosos.' },
+  { label: 'Flexibilidad', text: 'Se adaptan fácilmente a distintos contextos, perfiles y preguntas de investigación.' },
+]} />
+
+<Callout icon="⚠️">
+  **Limitaciones a tener en cuenta:** se basan en el auto-reporte, lo que puede llevar a recuerdos imprecisos. Algunos participantes pueden ser reservados, y requieren tiempo, muestras pequeñas y compensación económica.
+</Callout>
+
+<Pullquote>
+  "Una entrevista bien ejecutada ofrece una mirada honesta y profunda que transforma la forma en que diseñamos soluciones."
+</Pullquote>
+
+## Cómo planificar una entrevista paso a paso
+
+El valor de una entrevista depende tanto de lo que se pregunta como de cómo se ejecuta.
+
+<CriteriaList items={[
+  { name: '1. Definí tu objetivo de investigación', desc: 'Tener una meta clara guía las preguntas, mantiene el enfoque y alinea al equipo con el propósito de las entrevistas.' },
+  { name: '2. Seleccioná a los participantes', desc: 'Reclutá entre 5 y 10 personas. Si hay subgrupos, procurá entrevistar al menos 5 de cada uno. Usá encuestas breves (screener) para asegurarte de que sean perfiles adecuados.' },
+  { name: '3. Prepará una guía de entrevista', desc: 'Incluí preguntas alineadas al objetivo combinadas con preguntas abiertas e icebreakers. Evitá preguntas dirigidas — no "¿por qué te gusta X?" sino "¿por qué usás X?".' },
+  { name: '4. Obtené consentimiento', desc: 'Explicá el propósito, cómo se usará la información y quién tendrá acceso. Asegurate de obtener consentimiento por escrito en lenguaje claro.' },
+  { name: '5. Mantené flexibilidad', desc: 'Está bien ajustar el enfoque si surgen temas relevantes. Una conversación inesperada puede abrir nuevas puertas.' },
+]} />
+
+## Cómo conducir la entrevista
+
+### Preparación del entorno
+
+Antes de comenzar, el contexto importa tanto como las preguntas. Elegí un lugar limpio, tranquilo y libre de interrupciones. Verificá que los dispositivos de grabación funcionen y practicá el guion para asegurar un ritmo fluido.
+
+### Durante la entrevista
+
+<CriteriaList items={[
+  { name: 'Generá confianza desde el inicio', desc: 'Arrancá con preguntas introductorias y conversación casual. Asegurá al participante que no hay respuestas correctas o incorrectas.' },
+  { name: 'Mantené una actitud empática', desc: 'Profesional, amable y genuinamente curiosa. El participante debe sentirse escuchado, no evaluado.' },
+  { name: 'Dejá que el usuario lidere', desc: 'Si surgen temas valiosos fuera del guion, seguílos. Las mejores insights suelen aparecer donde no las esperabas.' },
+]} />
+
+### Técnica recomendada: A-C-V Laddering
+
+Para profundizar en motivaciones personales usá esta técnica de tres niveles:
+
+<CaseStudy
+  statement="Me gusta la interfaz simple → Me ayuda a ahorrar tiempo → Valoro la productividad y la eficiencia."
+  items={[
+    { label: 'A — Atributos', text: 'Características del producto que el usuario menciona: "Me gusta la interfaz simple".' },
+    { label: 'C — Consecuencias', text: 'Beneficios prácticos o emocionales detrás de ese atributo: "Me ayuda a ahorrar tiempo".' },
+    { label: 'V — Valores', text: 'El valor personal más profundo que lo motiva: "Valoro la productividad y la eficiencia".' },
+  ]}
+/>
+
+### Cierre de la entrevista
+
+Avisá con suavidad que se acerca el final ("Solo tengo una pregunta más…"), agradecé el tiempo y la apertura del participante, e invitá a compartir pensamientos finales ("¿Hay algo más que quieras agregar?").
+
+<Callout>
+  **Después de cada sesión:** escuchá nuevamente la grabación y pedí feedback a colegas para mejorar tus habilidades como entrevistador. La práctica deliberada es lo que separa una entrevista buena de una excelente.
+</Callout>
+
+<SummaryCard items={[
+  { label: 'Tipo recomendado', text: 'Semiestructurada: guion flexible que sigue al usuario cuando aparecen insights inesperados.' },
+  { label: 'Cantidad ideal', text: '5 a 10 personas por segmento. Con menos de 5 es difícil detectar patrones.' },
+  { label: 'Técnica clave', text: 'A-C-V Laddering: atributos → consecuencias → valores. Revela motivaciones profundas.' },
+  { label: 'Lo que realmente obtiene', text: 'No solo respuestas: razones, emociones y valores que guían el comportamiento.' },
+]} />

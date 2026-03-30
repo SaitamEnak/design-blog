@@ -1,0 +1,87 @@
+---
+title: 'Literature Review'
+description: 'Construye una base de conocimiento sólida analizando investigaciones y datos existentes.'
+module: '06'
+category: 'UX Research'
+readTime: '7 min'
+---
+import { Callout, Pullquote, BenefitGrid, CriteriaList, CompareRow, CaseStudy, SummaryCard } from '../components/mdx'
+
+## ¿Qué es un literature review?
+
+En investigación generativa, un literature review —también llamado desk research— consiste en recopilar, analizar y resumir información publicada previamente en fuentes como artículos, papers, videos y bases de datos. No se genera información nueva: se estudian investigaciones ya realizadas para construir una base de conocimiento sólida antes de salir a campo.
+
+<Pullquote>
+  "Un buen literature review es el punto de partida ideal para cualquier proyecto de investigación: ordena lo que ya se sabe y abre camino para descubrir lo que aún no."
+</Pullquote>
+
+<BenefitGrid items={[
+  { label: 'Ahorra tiempo y costos', text: 'Evita duplicar esfuerzos frente a estudios de campo que ya existen.' },
+  { label: 'Define mejores preguntas', text: 'Aporta contexto y ayuda a formular preguntas de investigación más precisas.' },
+  { label: 'Detecta vacíos', text: 'Identifica temas poco explorados donde tu investigación puede generar valor real.' },
+  { label: 'Mejora la credibilidad', text: 'Valida o descarta la necesidad de estudios adicionales ante stakeholders.' },
+]} />
+
+## Cuándo usarlo
+
+<CompareRow
+  company="¿Vale la pena hacer un literature review?"
+  bad="Cuando ya tenés preguntas claras, participantes definidos y presupuesto para investigación primaria. En ese caso, ir directo al campo es más eficiente."
+  good="Cuando no sabés qué preguntas hacer, si vale la pena investigar algo en profundidad, o antes de iniciar una investigación primaria para enfocar mejor los recursos."
+/>
+
+## Cómo hacerlo paso a paso
+
+### 1. Definí el tema y tus preguntas de investigación
+
+Elegí un foco claro. Las preguntas deben ser lo suficientemente amplias para explorar, pero concretas para mantener la revisión manejable.
+
+<CaseStudy
+  statement="Ejemplo: investigación sobre agricultura sostenible"
+  items={[
+    { label: 'Pregunta exploratoria', text: '¿Qué técnicas se están usando en agricultura sostenible a nivel global?' },
+    { label: 'Pregunta específica', text: '¿Qué desafíos concretos enfrentan los agricultores al adoptar nuevas tecnologías?' },
+    { label: 'Por qué funciona', text: 'La primera abre el panorama; la segunda enfoca la revisión en lo que el equipo necesita saber para tomar decisiones.' },
+  ]}
+/>
+
+### 2. Reuní y organizá tus fuentes
+
+No todas las fuentes tienen el mismo peso. Combiná fuentes internas y externas para obtener una visión completa.
+
+<CriteriaList items={[
+  { name: 'Fuentes internas', desc: 'Entrevistas anteriores, bases de datos de la empresa, feedback de usuarios, reportes internos.' },
+  { name: 'Fuentes académicas', desc: 'Google Scholar, ProQuest, JSTOR. Priorizá publicaciones recientes y con metodología clara.' },
+  { name: 'Fuentes especializadas', desc: 'Blogs de referencia como Nielsen Norman Group o UX Booth, libros del área, conferencias.' },
+  { name: 'Fuentes sociales', desc: 'Redes sociales, foros, comunidades de usuarios. Útiles para capturar lenguaje y percepción real.' },
+]} />
+
+<Callout>
+  **Organizá en una hoja de cálculo:** registrá autor, año, fuente, método usado, hallazgos principales y limitaciones. Sin esta estructura, el volumen de información se vuelve inmanejable en el paso de análisis.
+</Callout>
+
+### 3. Analizá el contenido
+
+Una vez reunidas las fuentes, el objetivo es encontrar la señal dentro del ruido.
+
+<CriteriaList items={[
+  { name: 'Buscá coincidencias y contradicciones', desc: '¿Qué dicen todas las fuentes? ¿Dónde hay desacuerdo? Las contradicciones suelen señalar áreas donde se necesita investigación primaria.' },
+  { name: 'Identificá vacíos de información', desc: '¿Sobre qué no hay datos suficientes? Esos vacíos son oportunidades para investigar y diferenciarte.' },
+  { name: 'Observá el enfoque metodológico', desc: '¿Las fuentes son cualitativas, cuantitativas o mixtas? Eso condiciona qué tipo de conclusiones podés extraer.' },
+]} />
+
+### 4. Escribí tu informe
+
+<CriteriaList items={[
+  { name: 'Introducción', desc: 'Propósito de la revisión, preguntas que guiaron la búsqueda y alcance del estudio.' },
+  { name: 'Resumen de fuentes y temas', desc: 'Principales ideas, hallazgos comunes y patrones identificados entre las fuentes.' },
+  { name: 'Limitaciones', desc: 'Sesgos detectados, carencias de información o áreas poco exploradas que afectan las conclusiones.' },
+  { name: 'Recomendaciones', desc: 'Qué investigar en profundidad a continuación y cómo usar los insights para guiar decisiones estratégicas del equipo.' },
+]} />
+
+<SummaryCard items={[
+  { label: 'Cuándo hacerlo', text: 'Antes de cualquier investigación primaria. Es el paso cero que define qué vale la pena investigar.' },
+  { label: 'Lo que produce', text: 'Un mapa de lo conocido y lo desconocido. La base para formular mejores preguntas.' },
+  { label: 'Herramienta clave', text: 'Una hoja de cálculo con autor, fuente, método, hallazgos y limitaciones de cada fuente.' },
+  { label: 'Su mayor valor', text: 'Detectar vacíos de conocimiento donde tu investigación puede generar un aporte real.' },
+]} />
