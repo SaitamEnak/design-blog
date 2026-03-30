@@ -8,7 +8,7 @@ export default function ArticleLayout({ meta, children }) {
         <div className="max-w-2xl mx-auto flex items-center gap-3">
           <Link
             to="/"
-            className="flex items-center gap-1.5 text-sm text-stone-400 hover:text-stone-700 transition-colors"
+            className="flex items-center gap-1.5 text-sm text-stone-600 hover:text-stone-900 transition-colors"
           >
             <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none">
               <path
@@ -21,15 +21,14 @@ export default function ArticleLayout({ meta, children }) {
             </svg>
             Inicio
           </Link>
-          <span className="text-stone-200">/</span>
-          <span className="text-sm text-stone-400 truncate">{meta.title}</span>
+          <span className="text-stone-300">/</span>
+          <span className="text-sm text-stone-600 truncate">{meta.title}</span>
         </div>
       </header>
 
       <main className="max-w-2xl mx-auto px-6 py-14 pb-24">
         {/* Article hero */}
         <div className="mb-10">
-
           <h1
             className="text-4xl md:text-5xl leading-tight mb-5 text-stone-900"
             style={{ fontFamily: "'DM Serif Display', Georgia, serif", fontWeight: 400 }}
@@ -43,7 +42,7 @@ export default function ArticleLayout({ meta, children }) {
             {meta.description}
           </p>
           <div className="flex items-center gap-3 mt-4">
-            <span className="text-xs text-stone-400">{meta.readTime} de lectura</span>
+            <span className="text-xs text-stone-600">{meta.readTime} de lectura</span>
           </div>
         </div>
 
@@ -57,7 +56,7 @@ export default function ArticleLayout({ meta, children }) {
         <div className="max-w-2xl mx-auto flex items-center justify-between">
           <Link
             to="/"
-            className="flex items-center gap-1.5 text-sm text-stone-400 hover:text-stone-700 transition-colors"
+            className="flex items-center gap-1.5 text-sm text-stone-600 hover:text-stone-900 transition-colors"
           >
             <svg className="w-3.5 h-3.5" viewBox="0 0 16 16" fill="none">
               <path
@@ -70,7 +69,7 @@ export default function ArticleLayout({ meta, children }) {
             </svg>
             Ver todos los artículos
           </Link>
-          <span className="text-xs text-stone-400">Centro de Aprendizaje · UX Research</span>
+          <span className="text-xs text-stone-600">Centro de Aprendizaje · UX Research</span>
         </div>
       </footer>
     </div>

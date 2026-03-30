@@ -7,17 +7,17 @@ export default function Home() {
       {/* Top bar */}
       <header className="border-b border-stone-200 px-6 py-4">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
-          <span className="text-sm font-medium text-stone-400 tracking-wide uppercase">
+          <span className="text-sm font-medium text-stone-500 tracking-wide uppercase">
             Centro de Aprendizaje
           </span>
-          <span className="text-xs text-stone-400">UX Research · Producto · Estrategia</span>
+          <span className="text-xs text-stone-500">UX Research · Producto · Estrategia</span>
         </div>
       </header>
 
       <main className="max-w-6xl mx-auto px-6 py-16">
         {/* Hero */}
         <div className="mb-14">
-          <p className="text-xs font-medium tracking-widest uppercase text-amber-700 mb-3">
+          <p className="text-xs font-medium tracking-widest uppercase text-amber-800 mb-3">
             Guías de aprendizaje
           </p>
           <h1
@@ -26,7 +26,7 @@ export default function Home() {
           >
             Investigación y Producto
           </h1>
-          <p className="text-lg text-stone-500 max-w-xl leading-relaxed">
+          <p className="text-lg text-stone-600 max-w-xl leading-relaxed">
             Una colección de guías prácticas sobre investigación generativa, metodologías con usuarios y estrategia de producto.
           </p>
         </div>
@@ -35,7 +35,7 @@ export default function Home() {
         <div className="flex gap-8 mb-12 pb-8 border-b border-stone-200">
           <div>
             <div className="text-2xl font-medium text-stone-900">{articles.length}</div>
-            <div className="text-xs text-stone-400 mt-0.5">
+            <div className="text-xs text-stone-600 mt-0.5">
               {articles.length === 1 ? 'Artículo' : 'Artículos'}
             </div>
           </div>
@@ -56,15 +56,15 @@ export default function Home() {
                 >
                   {article.title}
                 </h2>
-                <p className="text-sm text-stone-500 leading-relaxed mb-6">
+                <p className="text-sm text-stone-600 leading-relaxed mb-6">
                   {article.description}
                 </p>
               </div>
               
               <div className="flex items-center justify-between mt-auto pt-4 border-t border-stone-50">
-                <span className="text-xs text-stone-400">{article.readTime}</span>
+                <span className="text-xs text-stone-600">{article.readTime}</span>
                 <svg
-                  className="w-4 h-4 text-stone-300 group-hover:text-amber-600 transition-all transform group-hover:translate-x-0.5"
+                  className="w-4 h-4 text-stone-400 group-hover:text-amber-600 transition-all transform group-hover:translate-x-0.5"
                   viewBox="0 0 16 16"
                   fill="none"
                 >
@@ -83,7 +83,7 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-stone-200 px-6 py-6 mt-16">
-        <div className="max-w-6xl mx-auto text-center text-xs text-stone-400">
+        <div className="max-w-6xl mx-auto text-center text-xs text-stone-600">
           Centro de Aprendizaje · UX Research
         </div>
       </footer>

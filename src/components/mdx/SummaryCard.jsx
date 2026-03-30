@@ -17,7 +17,7 @@ export default function SummaryCard({ title = 'Lo que necesitás recordar', item
             <div className="text-xs font-medium mb-1" style={{ color: 'rgba(255,255,255,0.85)' }}>
               {item.label}
             </div>
-            <div className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.5)' }}>
+            <div className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.7)' }}>
               {item.text}
             </div>
           </div>
