@@ -8,7 +8,10 @@
       "Read(//c/Users/Kane/**)",
       "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")",
       "Bash(GH_CONFIG_DIR=\"/c/Users/Kane/AppData/Local/GitHub CLI\" gh auth status)",
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(gh repo:*)",
+      "Bash(gh run:*)",
+      "Bash(gh workflow:*)"
     ]
   }
 }
